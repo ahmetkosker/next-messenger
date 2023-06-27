@@ -1,17 +1,12 @@
-import Footer from "@/components/Footer/Footer";
-import Button from "@/components/FormElements/Button";
-import Input from "@/components/FormElements/Input";
+"use client";
+
+import Register from "@/components/Register/Register";
 
 export default function Home() {
   return (
-    <section className="w-screen h-screen mx-auto my-auto flex justify-center items-center bg-red-600">
+    <section className="w-screen h-screen mx-auto my-auto flex justify-center items-center bg-white">
       <div>
-        <div>
-          <Input />
-        </div>
-        <div>
-          <Button />
-        </div>
+        <Register />
       </div>
     </section>
   );
